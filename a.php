@@ -38,7 +38,7 @@ function sendMail($content) {
     $password = "密码";
     $formemail = "发送者";
     $formname = "主题名";
-    $to_emails = 'wangrui.a@yuewen.com';
+    $to_emails = '619161309@qq.com';
     $subject = '性能监控报警';
     include("/mnt/hgfs/dev/ThinkPHP/Library/Vendor/Swift/swift_required.php");
     $smtp = new \Swift_SmtpTransport($host, $port);
